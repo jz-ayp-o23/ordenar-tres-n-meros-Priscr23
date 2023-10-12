@@ -1,15 +1,19 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Diseña un programa para ordenar tres números de mayor a menor.
+750722
 """
 
-# Declaraciones
-CONSTANTE = valor
+#Entradas
+n_1 = input("Introduzca un número: ")
+n_2 = input("Introduzca un segundo número: ")
+n_3 = input("Introduzca un tercer número: ")
 
-# Entradas
-entrada = input()
+#Procesos
+numeros = [n_1, n_2, n_3]
+numeros.sort(reverse=True)
 
-# Proceso
+#Salida
+print("Números ordenados:", numeros)
 
 
-# Salidas
-print(salida)
+
